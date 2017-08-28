@@ -1,0 +1,19 @@
+{
+  "src/google-codelab-elements.html": {
+    "src/google-codelab-survey.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/google-codelab-step.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/google-codelab.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/google-codelab-survey.html": {},
+  "src/google-codelab-step.html": {},
+  "src/google-codelab.html": {}
+}

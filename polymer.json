@@ -1,0 +1,48 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/google-codelab-elements.html",
+  "fragments": [
+    "src/google-codelab-survey.html",
+    "src/google-codelab-step.html",
+    "src/google-codelab.html"
+  ],
+  "sources": [
+    "src/**/*",
+    "images/**/*",
+    "bower.json",
+    "index.html",
+    "src/google-codelab-elements.html",
+    "src/google-codelab-survey.html",
+    "src/google-codelab-step.html",
+    "src/google-codelab.html"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/*.js",
+    "manifest.json",
+    "bower_components/webcomponentsjs/*.js"
+  ],
+  "builds": [
+    {
+      "name": "es5-bundled",
+      "js": {
+        "minify": true,
+        "compile": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true,
+      "addPushManifest": true,
+      "preset": "es5-bundled"
+    }
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  }
+}
