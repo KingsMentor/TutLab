@@ -30,7 +30,7 @@ jinja_environment = jinja2.Environment(autoescape=True, loader=jinja2.FileSystem
 
 class MainHandler(webapp2.RequestHandler):
     def get(self, *ar, **kw):
-        logging.info(ar)
+        logging.info("here")
         template = jinja_environment.get_template('codelab.html')
         self.response.out.write(template.render())
 

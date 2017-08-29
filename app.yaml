@@ -1,4 +1,4 @@
-application: tutlab
+application: opentutlab
 version: 1
 runtime: python27
 api_version: 1
@@ -8,26 +8,28 @@ handlers:
 
 - url: /bower_components
   static_dir: bundle/bower_components
-  secure: always
 
 - url: /images
   static_dir: bundle/images
-  secure: always
 
 
 - url: /manifest.json
   static_files: bundle/manifest.json
   upload: bundle/manifest.json
-  secure: always
+
 
 
 - url: /src
   static_dir: bundle/src
-  secure: always
+  http_headers:
+    Access-Control-Allow-Origin: http://opentutlab.appspot.com
 
 - url: /static
   static_dir: bundle/static
-  secure: always
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
 
 - url: .*
   script: main.py
@@ -38,9 +40,7 @@ handlers:
 #  upload: bundle/index.htm
 #  secure: always
 #
-#- url: /favicon\.ico
-#  static_files: favicon.ico
-#  upload: favicon\.ico
+
 
 
 
