@@ -14,10 +14,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+import json
 import logging
 import os
 
 import jinja2
+from github import Github
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
 
@@ -30,14 +32,42 @@ jinja_environment = jinja2.Environment(autoescape=True, loader=jinja2.FileSystem
 
 class MainHandler(webapp2.RequestHandler):
     def get(self, *ar, **kw):
-        logging.info("here")
+        path = str(ar[0]).split('/')
+        gitUserName = path[0]
+        repoName = path[1]
+        stepSize = int(path[2])
+        labPath = ""
+        for index in range(3, len(path)):
+            if len(str(path[index]).strip()) != 0:
+                labPath += path[index] + "/"
+        g = Github()
+        user = g.get_user(gitUserName)
+        repo = user.get_repo(repoName)
+        variables = {}
+        data = list()
+        file = repo.get_file_contents(labPath + "manifest.json")
+        decoded_content = file.decoded_content
+        manifest = json.loads(decoded_content)
+        variables['title'] = manifest['title']
+        variables['feedback_link'] = manifest['feedback_link']
+        for index in range(1, stepSize + 1):
+            dataEntry = {}
+            file = repo.get_file_contents(labPath + "step" + str(index) + ".md")
+            decoded_content = file.decoded_content
+            dataEntry['label'] = manifest["step"+str(index)]['label']
+            dataEntry['data'] = decoded_content
+            data.append(dataEntry)
+
+        variables['data'] = data
+
+        logging.info(decoded_content)
         template = jinja_environment.get_template('codelab.html')
-        self.response.out.write(template.render())
+        self.response.out.write(template.render(variables))
 
 
 run_wsgi_app(webapp.WSGIApplication(
         [
-            (r'/(.*)', MainHandler),
+            (r'/posts/(.*)', MainHandler),
 
         ]
         ,
