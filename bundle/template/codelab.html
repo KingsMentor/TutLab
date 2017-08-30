@@ -22,6 +22,7 @@ the License.
     <title>codelab demo</title>
     <script src="/bower_components/webcomponentsjs/webcomponents-lite.min.js" async></script>
     <script src="/static/showdown.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <script>
         window.Polymer = {
@@ -35,6 +36,7 @@ the License.
     <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
     <link rel="import" href="/bower_components/paper-button/paper-button.html">
     <link rel="import" href="/src/google-codelab-elements.html">
+
     <style is="custom-style">
         body {
             font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial;
@@ -56,18 +58,17 @@ the License.
     </google-codelab-step>
 
     <script>
-      function Editor(preview) {
-        this.update = function () {
-            var text = "{{item.data | replace("\n", "\\n")}}"
-            var converter = new showdown.Converter();
-            converter.setFlavor('github');
-            var html      = converter.makeHtml(text);
-          preview.innerHTML = html;
-        };
-        this.update();
-      }
-      var $ = function (id) { return document.getElementById(id); };
-      new Editor($("{{item.id}}"));
+
+      axios.get('{{item.data_link}}')
+  .then(function (response) {
+      var converter = new showdown.Converter();
+      converter.setFlavor('github');
+      var html      = converter.makeHtml(String(response.data));
+      document.getElementById('{{item.id}}').innerHTML = html;
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
     </script>
 
 
