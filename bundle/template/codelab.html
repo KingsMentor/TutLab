@@ -53,22 +53,28 @@ the License.
 
 
     {% for item in data %}
-    <google-codelab-step id="{{item.id}}" label="{{item.label}}" duration="2">
+    <google-codelab-step id="{{item.id}}" label="{{item.label}}">
 
     </google-codelab-step>
 
     <script>
 
-      axios.get('{{item.data_link}}')
-  .then(function (response) {
-      var converter = new showdown.Converter();
-      converter.setFlavor('github');
-      var html      = converter.makeHtml(String(response.data));
-      document.getElementById('{{item.id}}').innerHTML = html;
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
+        axios.get('{{item.data_link}}')
+                .then(function (response) {
+                    var converter = new showdown.Converter();
+                    converter.setFlavor('github');
+                    var html = converter.makeHtml(String(response.data));
+                    var stepTag = document.getElementById('{{item.id}}');
+                    stepTag.innerHTML = html;
+                    if (String(response.data).length < 360) {
+                        stepTag.duration = 1
+                    }else{
+                        stepTag.duration = Math.round(String(response.data).length / 180)
+                    }
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
     </script>
 
 

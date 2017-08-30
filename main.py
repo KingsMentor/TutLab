@@ -44,7 +44,7 @@ class MainHandler(webapp2.RequestHandler):
                 labPath += path[index] + "/"
 
         # init git credentials
-        g = Github(client_id="", client_secret="")
+        g = Github(client_id="74a6ead0dcdde0710c40", client_secret="14bbd96eb781620284b5794e657e04bbd4ebf3ff")
         user = g.get_user(author)
         repo = user.get_repo(repoName)
         variables = {}
