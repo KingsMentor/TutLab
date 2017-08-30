@@ -2,610 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeed928e-156b-4a86-bc14-b062545d4950" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/AuthenticatedUser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Authorization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/AuthorizationApplication.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Branch.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Commit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/CommitCombinedStatus.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/CommitComment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/CommitStats.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/CommitStatus.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Comparison.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Consts.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/ContentFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Download.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Event.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/File.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Gist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GistComment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GistFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GistHistoryState.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitAuthor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitBlob.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitCommit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitObject.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitRef.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitRelease.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitTag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitTreeElement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GithubException.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GithubObject.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/GitignoreTemplate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Hook.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/HookDescription.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/HookResponse.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/InputFileContent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/InputGitAuthor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/InputGitTreeElement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Installation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/InstallationAuthorization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Invitation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Issue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/IssueComment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/IssueEvent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/IssuePullRequest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Label.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Legacy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/MainClass.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Milestone.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/NamedUser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Notification.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/NotificationSubject.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Organization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/PaginatedList.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Permissions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Plan.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/PullRequest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/PullRequestComment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/PullRequestMergeStatus.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/PullRequestPart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/PullRequestReview.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/PullRequestReviewerRequest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Rate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/RateLimit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Repository.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/RepositoryKey.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Requester.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Stargazer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/StatsCodeFrequency.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/StatsCommitActivity.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/StatsContributor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/StatsParticipation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/StatsPunchCard.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Status.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/StatusMessage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Tag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/Team.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/UserKey.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/AllTests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/AuthenticatedUser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Authentication.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Authorization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/BadAttributes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Branch.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Commit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/CommitCombinedStatus.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/CommitComment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/CommitStatus.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ConditionalRequestUpdate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ContentFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Download.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Enterprise.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Equality.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Event.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ExposeAllAttributes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Framework.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Gist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/GistComment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/GitBlob.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/GitCommit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/GitRef.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/GitRelease.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/GitTag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/GitTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Github_.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Hook.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue131.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue133.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue134.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue139.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue140.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue142.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue158.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue174.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue214.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue216.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue278.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue33.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue494.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue50.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue54.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue80.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Issue87.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/IssueComment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/IssueEvent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Label.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Logging_.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Markdown.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Milestone.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/NamedUser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Organization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/OrganizationHasInMembers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/PaginatedList.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Persistence.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/PullRequest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/PullRequestComment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/PullRequestFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/PullRequestReview.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/PullRequestReviewerRequests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/RateLimiting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/RawData.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testAcceptInvitation.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testAttributes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithClientIdAndSecret.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithoutArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateFork.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateGist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateGistWithoutDescription.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateKey.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateRepository.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateRepositoryWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testCreateRepositoryWithAutoInit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testEditWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testEditWithoutArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testEmails.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testFollowing.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetAuthorizations.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetGists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetIssuesWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetKeys.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetNotification.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetNotifications.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetNotificationsWithOtherArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetOrganizationEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetOrgs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetRepos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetReposWithArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetStarredGists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetTeams.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetUserIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testGetUserIssuesWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testStarring.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testSubscriptions.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/AuthenticatedUser.testWatching.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authentication.testAuthorizationHeaderWithLogin.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authentication.testAuthorizationHeaderWithToken.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authentication.testBasicAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authentication.testNoAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authentication.testOAuthAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authentication.testSecretKeyAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authentication.testUserAgent.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authorization.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authorization.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Authorization.testEdit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/BadAttributes.testBadAttributeInClassAttribute.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/BadAttributes.testBadAttributeTransformation.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/BadAttributes.testBadSimpleAttribute.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/BadAttributes.testBadSimpleAttributeInList.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/BadAttributes.testBadTransformedAttribute.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/BadAttributes.testBadTransformedAttributeInDict.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/BadAttributes.testBadTransformedAttributeInList.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/BadAttributes.testIssue195.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Branch.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Branch.testCommitCommentsOnLine.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Branch.testProtectedAttributes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Commit.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Commit.testCreateComment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Commit.testCreateCommentOnFileLine.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Commit.testCreateCommentOnFilePosition.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Commit.testCreateStatusWithAllParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Commit.testCreateStatusWithoutOptionalParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Commit.testGetComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/CommitCombinedStatus.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/CommitComment.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/CommitComment.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/CommitComment.testEdit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/CommitStatus.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/ConditionalRequestUpdate.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/ConditionalRequestUpdate.testDidNotUpdate.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/ConditionalRequestUpdate.testDidUpdate.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/ConditionalRequestUpdate.testUpdateObjectWithoutEtag.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/ContentFile.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Download.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Download.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Enterprise.testHttp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Enterprise.testHttps.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Enterprise.testLongUrl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Enterprise.testSpecificPort.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Equality.testBranchEquality.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Equality.testUserDifference.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Equality.testUserEquality.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Event.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Exceptions.testBadAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Exceptions.testInvalidInput.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Exceptions.testNonJsonDataReturnedByGithub.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Exceptions.testUnknownObject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Exceptions.testUnknownUser.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/ExposeAllAttributes.testAllClasses.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testAttributes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testCreateComment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testDeleteFile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testEditWithAllParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testEditWithoutParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testFork.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testGetComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testRenameFile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Gist.testStarring.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GistComment.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GistComment.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GistComment.testEdit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GitBlob.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GitCommit.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GitRef.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GitRef.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GitRef.testEdit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GitRef.testEditWithForce.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GitTag.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/GitTree.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetEmojis.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetGists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetGitignoreTemplate.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetGitignoreTemplates.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetHook.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetHooks.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetRepoFromFullName.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetRepoFromId.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetRepos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetReposSince.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetUsers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testGetUsersSince.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testLegacySearchRepos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testLegacySearchReposExplicitPagination.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testLegacySearchReposPagination.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testLegacySearchReposWithLanguage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testLegacySearchUserByEmail.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testLegacySearchUsers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testLegacySearchUsersExplicitPagination.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testLegacySearchUsersPagination.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testSearchRepos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testSearchUserByEmail.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Github.testSearchUsers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Hook.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Hook.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Hook.testEditWithAllParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Hook.testEditWithMinimalParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Hook.testTest.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testAddAndRemoveAssignees.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testAddAndRemoveLabels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testAddAndRemoveLabelsWithStringArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testAttributes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testCreateComment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testDeleteAndSetLabels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testDeleteAndSetLabelsWithStringArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testEditResetAssignee.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testEditResetMilestone.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testEditWithAllParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testEditWithoutParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testGetComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testGetCommentsSince.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testGetEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue.testGetLabels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue131.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue131.testGetPullWithOrgHeadUser.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue131.testGetPullsWithOrgHeadUser.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue133.testGetPageWithoutInitialArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue134.testGetAuthorizationsFailsWhenAutenticatedThroughOAuth.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue134.testGetAuthorizationsSucceedsWhenAutenticatedThroughLoginPassword.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue134.testGetOAuthScopesFromHeader.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue139.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue139.testCompletion.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue140.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue140.testGetDirContents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue140.testGetDirContentsThenLazyCompletionOfFile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue140.testGetDirContentsWithRef.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue140.testGetFileContents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue158.testPaginationWithSecretKeyAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue174.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue174.testGetDirContentsWhithHttpRedirect.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue214.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue214.testAssignees.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue214.testCollaborators.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue214.testCreateIssue.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue214.testEditIssue.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue214.testGetIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue216.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue216.testIteration.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue278.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue278.testIteration.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue33.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue33.testClosedIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue33.testOpenIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue494.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testAddLabelToIssue.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testCreateIssueWithLabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testCreateLabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testGetIssuesWithLabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testGetLabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testGetLabels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testIssueGetLabels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testRemoveLabelFromIssue.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue50.testSetIssueLabels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue54.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue54.testConversion.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue80.testIgnoreHttpsFromGithubEnterprise.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue80.testIgnoreHttpsFromGithubEnterpriseWithPort.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue87.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue87.testCreateIssueWithEscapedPercentInBody.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue87.testCreateIssueWithEscapedPercentInTitle.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue87.testCreateIssueWithPercentInBody.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Issue87.testCreateIssueWithPercentInTitle.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/IssueComment.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/IssueComment.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/IssueComment.testEdit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/IssueEvent.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/IssueEvent.testAttributes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Label.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Label.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Label.testEdit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/LazyRepository.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/LazyRepository.testGetIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/LazyRepository.testGetUser.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/LazyRepository.testOwner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Logging.testLoggingWithBaseUrl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Logging.testLoggingWithBasicAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Logging.testLoggingWithOAuthAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Logging.testLoggingWithoutAuthentication.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Markdown.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Markdown.testRenderGithubFlavoredMarkdown.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Markdown.testRenderMarkdown.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Milestone.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Milestone.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Milestone.testEditWithAllParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Milestone.testEditWithMinimalParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Milestone.testGetLabels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testAttributesOfOtherUser.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetFollowers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetFollowing.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetGists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetKeys.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetOrgs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetPublicEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetPublicReceivedEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetReceivedEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetRepo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetRepos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetReposWithType.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetStarred.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetSubscriptions.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testGetWatched.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/NamedUser.testHasInFollowing.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testCreateFork.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testCreateRepoWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testCreateRepoWithMinimalArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testCreateRepositoryWithAutoInit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testCreateTeam.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testCreateTeamWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testEditWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testEditWithoutArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testGetEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testGetIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testGetIssuesWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testGetMembers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testGetPublicMembers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testGetRepos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testGetReposWithType.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testGetTeams.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testMembers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Organization.testPublicMembers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/OrganizationHasInMembers.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testCustomPerPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testCustomPerPageWithGetPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testCustomPerPageWithNoUrlParams2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testGetFirstPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testGetThirdPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testGettingTheReversedListDoesNotModifyTheOriginalList.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testIntIndexingAfterIteration.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testIntIndexingInFirstPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testIntIndexingInThirdPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testInterruptedIteration.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testInterruptedIterationInSlice.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testIteration.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testNoFirstPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testReversedIterationSupportsIterator.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testReversedIterationWithMultiplePages.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testReversedIterationWithSinglePage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testSeveralIterations.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testSliceIndexingInFirstPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testSliceIndexingUntilEnd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PaginatedList.testSliceIndexingUntilFourthPage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Persistence.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Persistence.testLoadAndUpdate.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testCreateComment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testCreateIssueComment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testEditWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testEditWithoutArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testGetComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testGetCommits.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testGetFiles.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testGetIssueComment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testGetIssueComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testMerge.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequest.testMergeWithCommitMessage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequestComment.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequestComment.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequestComment.testEdit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequestFile.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequestReview.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/PullRequestReviewerRequests.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RateLimiting.testGetRateLimit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RateLimiting.testRateLimiting.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RateLimiting.testResetTime.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RawData.testCompletedObject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RawData.testNonCompletableObject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RawData.testNotYetCompletedObject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Release.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Release.testAttributes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Release.testCreateGitTagAndRelease.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Release.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Release.testGetRelease.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Release.testUpdate.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testAssignees.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testBadSubscribePubSubHubbub.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testChangeBranchProtectionContexts.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testChangeBranchProtectionEnforcementLevel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCollaborators.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCompare.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateFile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitBlob.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitCommit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitCommitWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitCommitWithParents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitRef.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitTag.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitTagWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitTree.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitTreeWithBaseTree.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateGitTreeWithSha.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateHookWithAllParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateHookWithMinimalParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateIssue.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateIssueWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateIssueWithAllArgumentsStringLabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateKey.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateLabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateMilestone.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreateMilestoneWithMinimalArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreatePull.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testCreatePullFromIssue.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testDeleteFile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testEditWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testEditWithDefaultBranch.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testEditWithoutArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetArchiveLink.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetBranch.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetCommits.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetCommitsWithArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetCommitsWithAuthor.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetCommitsWithSinceUntil.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetContentDir.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetContents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetContentsWithRef.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetContributors.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetDownloads.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetForks.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetGitRef.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetGitRefWithIssue102Reverted.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetGitRefs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetGitTreeWithRecursive.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetHooks.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetIssuesComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetIssuesEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetIssuesWithArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetIssuesWithWildcards.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetKeys.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetLabel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetLabels.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetLanguages.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetMilestones.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetMilestonesWithArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetNetworkEvents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetPulls.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetPullsComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetPullsWithArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetStargazers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetStargazersWithDates.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetSubscribers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetTeams.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testGetWatchers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testLegacySearchIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testMergeWithConflict.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testMergeWithMessage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testMergeWithNothingToDo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testMergeWithoutMessage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testProtectBranch.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testRaiseErrorWithBranchProtectionWithInvalidEnforcementLevel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testRaiseErrorWithBranchProtectionWithOutContext.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testRaiseErrorWithOutBranch.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testRemoveBranchProtection.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testSearchIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testStatisticsAfterCaching.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testStatisticsBeforeCaching.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testSubscribePubSubHubbub.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testUnsubscribePubSubHubbub.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Repository.testUpdateFile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RepositoryKey.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RepositoryKey.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RepositoryKey.testEdit.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/RepositoryKey.testEditWithoutParameters.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Search.testGetPageOnSearchUsers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Search.testPaginateSearchUsers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Search.testSearchCode.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Search.testSearchIssues.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Search.testSearchRepos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Search.testSearchUsers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Search.testUrlquotingOfQualifiers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Search.testUrlquotingOfQuery.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/SpecificExceptions.testBadCredentials.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/SpecificExceptions.testBadUserAgent.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/SpecificExceptions.testRateLimitExceeded.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/SpecificExceptions.testUnknownObject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Status.testGetLastMessage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Status.testGetMessages.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Status.testGetStatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Tag.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Team.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Team.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Team.testEditWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Team.testEditWithoutArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Team.testMembers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Team.testRepoPermission.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/Team.testRepos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/UserKey.setUp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/UserKey.testDelete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/UserKey.testEditWithAllArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/ReplayData/UserKey.testEditWithoutArguments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Repository.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/RepositoryKey.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Status.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Tag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/Team.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/UserKey.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/github/tests/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/algorithms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/api_jws.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/api_jwt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/contrib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/contrib/algorithms/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/contrib/algorithms/py_ecdsa.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/contrib/algorithms/pycrypto.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwt/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bundle/static/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bundle/static/showdown.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle/template/codelab.html" afterPath="$PROJECT_DIR$/bundle/template/codelab.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
@@ -622,7 +20,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TutLab$TutLab.coverage" NAME="TutLab Coverage Results" MODIFIED="1504016338117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TutLab$TutLab.coverage" NAME="TutLab Coverage Results" MODIFIED="1504092521002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/TutLab$Unittests_in_TutLab.coverage" NAME="Unittests in TutLab Coverage Results" MODIFIED="1503863154856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -636,79 +34,71 @@
     <splitter split-orientation="horizontal" split-proportion="0.56909686">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app.yaml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="codelab.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="codelab.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bundle/template/codelab.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.0">
-                  <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-                  <folding>
-                    <element signature="n#style#0;n#img#0;n#p#0;n#google-codelab-step#1;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#li#0;n#ol#0;n#google-codelab-step#2;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#p#2;n#google-codelab-step#2;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#p#4;n#google-codelab-step#2;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#p#5;n#google-codelab-step#2;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#p#2;n#google-codelab-step#3;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#p#13;n#google-codelab-step#3;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bundle/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="15.625">
-                  <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+                <state vertical-scroll-proportion="0.7123894">
+                  <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shared-style.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bundle/src/shared-style.html">
+          <file leaf-file-name="showdown.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bundle/static/showdown.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="step-style.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bundle/src/step-style.html">
+          <file leaf-file-name="google-codelab.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bundle/src/google-codelab.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="syntax-style.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bundle/src/syntax-style.html">
+          <file leaf-file-name="step.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bundle/template/step.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.25">
-                  <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="survey.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bundle/template/survey.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="embed.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bundle/template/embed.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="112" column="67" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="67" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5726496">
-                  <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
                   <folding>
                     <element signature="e#601#612#0" expanded="true" />
                   </folding>
@@ -716,11 +106,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MainClass.py" pinned="false" current-in-tab="false">
-            <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/PyGithub-1.35-py2.7.egg/github/MainClass.py">
+          <file leaf-file-name="push-manifest.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bundle/push-manifest.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="markdown.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bundle/static/markdown.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GithubObject.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/github/GithubObject.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -729,12 +139,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../Tutlabsample/steps/manifest.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.06637168">
-                  <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+                  <caret line="3" column="8" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -795,7 +205,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -813,8 +223,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -847,6 +257,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TutLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -860,11 +288,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundle/static" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bundle/src/Demo" />
       <recent name="$PROJECT_DIR$/bundle/template" />
       <recent name="$PROJECT_DIR$/build" />
-      <recent name="$PROJECT_DIR$/build/es5-bundled" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bundle/static" />
@@ -1162,9 +590,8 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22213247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1173,8 +600,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6356164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6054795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1197,11 +625,69 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bundle/template/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/template/embed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="67" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/src/syntax-style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#601#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/static/markdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github/GithubObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Tutlabsample/steps/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/google_appengine/google/appengine/ext/ndb/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -1282,15 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bundle/src/google-codelab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,15 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="23.125">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bundle/src/google-codelab-step.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.75">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="13.0">
           <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1354,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1370,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1248" column="10" selection-start-line="1248" selection-start-column="10" selection-end-line="1248" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,15 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/github/MainClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3419914">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,6 +888,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="15.625">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/src/syntax-style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github/MainClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35470086">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <element signature="e#2051#2064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/template/step.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/template/embed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="67" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/template/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/src/google-codelab-step.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/src/google-codelab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github/GithubObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/static/markdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/static/showdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1449,42 +975,34 @@
     <entry file="file://$PROJECT_DIR$/../Tutlabsample/steps/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06637168">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bundle/src/syntax-style.html">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#601#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/push-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bundle/template/codelab.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#p#0;n#google-codelab-step#1;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ol#0;n#google-codelab-step#2;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#2;n#google-codelab-step#2;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#4;n#google-codelab-step#2;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#5;n#google-codelab-step#2;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#2;n#google-codelab-step#3;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#13;n#google-codelab-step#3;n#google-codelab#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5726496">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#601#612#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7123894">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
