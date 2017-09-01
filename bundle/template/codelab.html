@@ -1,12 +1,9 @@
 <!--
 Copyright (c) 2015 Google Inc.
-
 Licensed under the Apache License, Version 2.0 (the "License"); you may not
 use this file except in compliance with the License. You may obtain a copy of
 the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
-
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
@@ -31,6 +28,8 @@ the License.
             useNativeCSSProperties: true
         };
     </script>
+    <link rel="stylesheet" href="/static/main.css">
+
     <link rel="stylesheet"
           href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,700">
     <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
@@ -46,7 +45,7 @@ the License.
 </head>
 <body>
 
-<google-codelab title="{{title}}"
+<google-codelab id="lab" title="{{title}}" home="{{home_link}}"
                 feedback-link="{{feedback_link}}"
                 environment="web"
                 last-updated="{{last_updated}}">
@@ -58,7 +57,6 @@ the License.
     </google-codelab-step>
 
     <script>
-
         axios.get('{{item.data_link}}')
                 .then(function (response) {
                     var converter = new showdown.Converter();
@@ -68,9 +66,12 @@ the License.
                     stepTag.innerHTML = html;
                     if (String(response.data).length < 360) {
                         stepTag.duration = 1
-                    }else{
+                    } else {
                         stepTag.duration = Math.round(String(response.data).length / 180)
                     }
+                    setTimeout(function () {
+                        document.getElementById('lab')._initResume = true;
+                    }, 1000)
                 })
                 .catch(function (error) {
                     console.log(error);

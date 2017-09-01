@@ -20,6 +20,7 @@ import os
 import jinja2
 from google.appengine.api import urlfetch
 
+from clientDetails import CLIENT_ID, CLIENT_SECRET
 from github import Github
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
@@ -44,7 +45,7 @@ class MainHandler(webapp2.RequestHandler):
                 labPath += path[index] + "/"
 
         # init git credentials
-        g = Github(client_id="74a6ead0dcdde0710c40", client_secret="14bbd96eb781620284b5794e657e04bbd4ebf3ff")
+        g = Github(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
         user = g.get_user(author)
         repo = user.get_repo(repoName)
         variables = {}
@@ -55,6 +56,7 @@ class MainHandler(webapp2.RequestHandler):
         variables['title'] = manifest['title']
         variables['last_updated'] = repo.updated_at
         variables['feedback_link'] = manifest['feedback_link']
+        variables['home_link'] = manifest['home']
         steps = list()
         for step in manifest['steps']:
             steps.append(step)
