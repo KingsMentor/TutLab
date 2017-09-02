@@ -45,44 +45,49 @@ the License.
 </head>
 <body>
 
+{% if showLastUpdate %}
 <google-codelab id="lab" title="{{title}}" home="{{home_link}}"
                 feedback-link="{{feedback_link}}"
                 environment="web"
                 last-updated="{{last_updated}}">
+    {% else %}
+    <google-codelab id="lab" title="{{title}}" home="{{home_link}}"
+                    feedback-link="{{feedback_link}}"
+                    environment="web">
+        {% endif %}
+
+        {% for item in data %}
+        <google-codelab-step id="{{item.id}}" label="{{item.label}}">
+
+        </google-codelab-step>
+
+        <script>
+            axios.get('{{item.data_link}}')
+                    .then(function (response) {
+                        var converter = new showdown.Converter();
+                        converter.setFlavor('github');
+                        var html = converter.makeHtml(String(response.data));
+                        var stepTag = document.getElementById('{{item.id}}');
+                        stepTag.innerHTML = html;
+                        if (String(response.data).length < 360) {
+                            stepTag.duration = 1
+                        } else {
+                            stepTag.duration = Math.round(String(response.data).length / 180)
+                        }
+                        setTimeout(function () {
+                            document.getElementById('lab')._initResume = true;
+                        }, 1000)
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+        </script>
 
 
-    {% for item in data %}
-    <google-codelab-step id="{{item.id}}" label="{{item.label}}">
-
-    </google-codelab-step>
-
-    <script>
-        axios.get('{{item.data_link}}')
-                .then(function (response) {
-                    var converter = new showdown.Converter();
-                    converter.setFlavor('github');
-                    var html = converter.makeHtml(String(response.data));
-                    var stepTag = document.getElementById('{{item.id}}');
-                    stepTag.innerHTML = html;
-                    if (String(response.data).length < 360) {
-                        stepTag.duration = 1
-                    } else {
-                        stepTag.duration = Math.round(String(response.data).length / 180)
-                    }
-                    setTimeout(function () {
-                        document.getElementById('lab')._initResume = true;
-                    }, 1000)
-                })
-                .catch(function (error) {
-                    console.log(error);
-                });
-    </script>
+        {% endfor %}
 
 
-    {% endfor %}
-
-
-</google-codelab>
+    </google-codelab>
 
 
 </body>

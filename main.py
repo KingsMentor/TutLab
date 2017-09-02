@@ -35,40 +35,51 @@ jinja_environment = jinja2.Environment(autoescape=True, loader=jinja2.FileSystem
 
 class MainHandler(webapp2.RequestHandler):
     def get(self, *ar, **kw):
-        # split the path with '/' to get detail
-        path = str(ar[0]).split('/')
-        author = str(path[0])
-        repoName = str(path[1])
-        labPath = ""
-        for index in range(2, len(path)):
-            if len(str(path[index]).strip()) != 0:
-                labPath += path[index] + "/"
+        try:
+            path = str(ar[0]).split('/')
+            author = str(path[0])
+            repoName = str(path[1])
+            labPath = ""
+            for index in range(2, len(path)):
+                if len(str(path[index]).strip()) != 0:
+                    labPath += path[index] + "/"
 
-        # init git credentials
-        g = Github(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
-        user = g.get_user(author)
-        repo = user.get_repo(repoName)
-        variables = {}
-        data = list()
-        file = repo.get_file_contents(labPath + "manifest.json")
-        decoded_content = file.decoded_content
-        manifest = json.loads(decoded_content)
-        variables['title'] = manifest['title']
-        variables['last_updated'] = repo.updated_at
-        variables['feedback_link'] = manifest['feedback_link']
-        variables['home_link'] = manifest['home']
-        steps = list()
-        for step in manifest['steps']:
-            steps.append(step)
-            dataEntry = {}
-            dataEntry['label'] = manifest[str(step)]['label']
-            dataEntry['id'] = str(step)
-            dataEntry['data_link'] = buildRawFileContentPath(author, repoName, labPath, str(step))
-            data.append(dataEntry)
+            # init git credentials
+            g = Github(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+            user = g.get_user(author)
+            repo = user.get_repo(repoName)
+            data = list()
+            steps = list()
+            variables, manifest = fetch_variables_from_manifest(repo, labPath)
+            for step in manifest['steps']:
+                steps.append(step)
+                dataEntry = {}
+                dataEntry['label'] = manifest[str(step)]['label']
+                dataEntry['id'] = str(step)
+                dataEntry['data_link'] = buildRawFileContentPath(author, repoName, labPath, str(step))
+                data.append(dataEntry)
 
-        variables['data'] = data
-        template = jinja_environment.get_template('codelab.html')
-        self.response.write(template.render(variables))
+            variables['data'] = data
+            template = jinja_environment.get_template('codelab.html')
+            self.response.write(template.render(variables))
+        except Exception, e:
+            self.response.write(
+                    '''<a href="https://github.com/KingsMentor/TutLab/issues"> you can do something about this error<a>''')
+            self.response.write("<br><br>")
+            self.response.write(e)
+
+
+def fetch_variables_from_manifest(repo, labPath):
+    file = repo.get_file_contents(labPath + "manifest.json")
+    decoded_content = file.decoded_content
+    variables = {}
+    manifest = json.loads(decoded_content)
+    variables['title'] = manifest['title']
+    variables['last_updated'] = repo.updated_at
+    variables['feedback_link'] = manifest['feedback_link']
+    variables['home_link'] = manifest['home']
+    variables['showLastUpdate'] = bool(manifest['showLastUpdate'])
+    return variables, manifest
 
 
 def buildRawFileContentPath(author, repo, path, filename):
