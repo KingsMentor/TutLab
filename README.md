@@ -52,12 +52,9 @@ http://opentutlab.appspot.com/posts/YOUR_GIT_USERNAME/CODELAB_REPO_NAME/PATH_TO_
 
 Using ![this as an example](https://github.com/KingsMentor/codelab)
 
-**BASE_URL**                                          =    http://opentutlab.appspot.com/posts/
-
-**MY_GIT_USERNAME**                                   =    kigsmentor
-
-**CODELAB_REPO_NAME**                                 =    codelab
-
+**BASE_URL**                                          =    http://opentutlab.appspot.com/posts/ <br/>
+**MY_GIT_USERNAME**                                   =    kigsmentor <br/>
+**CODELAB_REPO_NAME**                                 =    codelab <br/>
 **PATH_TO_CODELAB_MANIFEST_FILES_AND_FILES**          =    buildingsmallerapk
 
 knowing this, I can share my codelab as : http://opentutlab.appspot.com/posts/kingsmentor/codelab/buildingsmallerapk
@@ -69,8 +66,8 @@ knowing this, I can share my codelab as : http://opentutlab.appspot.com/posts/ki
 
 # Contributions
 
-Looking forward to working with great contributors. If you find this project interesting, kindly contribute.\n
-I am not so fluent with the technologies I have used to set this up and  there might be many fawls, please help fix if you find any.\n
+Looking forward to working with great contributors. If you find this project interesting, kindly contribute.<br/>
+I am not so fluent with the technologies I have used to set this up and  there might be many fawls, please help fix if you find any.<br/>
 I know there are many ways this can be better. Contribute, share and reach out. Thanks
 
 
