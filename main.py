@@ -15,6 +15,7 @@
 # limitations under the License.
 #
 import json
+import logging
 import os
 
 import jinja2
@@ -33,10 +34,11 @@ jinja_environment = jinja2.Environment(autoescape=True, loader=jinja2.FileSystem
         os.path.join(os.path.dirname(__file__), 'bundle/template')))
 
 
-class MainHandler(webapp2.RequestHandler):
+class Post(webapp2.RequestHandler):
     def get(self, *ar, **kw):
         try:
             path = str(ar[0]).split('/')
+            logging.info(path)
             author = str(path[0])
             repoName = str(path[1])
             labPath = ""
@@ -66,7 +68,7 @@ class MainHandler(webapp2.RequestHandler):
             self.response.write(
                     '''<a href="https://github.com/KingsMentor/TutLab/issues"> you can do something about this error<a>''')
             self.response.write("<br><br>")
-            self.response.write(e)
+            self.response.write(e.message)
 
 
 def fetch_variables_from_manifest(repo, labPath):
@@ -78,6 +80,7 @@ def fetch_variables_from_manifest(repo, labPath):
     variables['last_updated'] = repo.updated_at
     variables['feedback_link'] = manifest['feedback_link']
     variables['home_link'] = manifest['home']
+    variables['flavor'] = manifest['flavor']
     variables['showLastUpdate'] = bool(manifest['showLastUpdate'])
     return variables, manifest
 
@@ -85,10 +88,18 @@ def fetch_variables_from_manifest(repo, labPath):
 def buildRawFileContentPath(author, repo, path, filename):
     return "https://raw.githubusercontent.com/" + author + "/" + repo + "/master/" + path + filename + ".md"
 
+class MainHandler(webapp2.RequestHandler):
+    def get(self, *ar, **kw):
+        self.response.write("Nothing here at the moment.<br><br>")
+        self.response.write(
+                    '''kindly see <a href="https://github.com/KingsMentor/TutLab"> how to use <a>''')
+
 
 run_wsgi_app(webapp.WSGIApplication(
         [
-            (r'/posts/(.*)', MainHandler),
+            (r'/posts/(.*)', Post),
+            (r'/(.*)', MainHandler),
+
 
         ]
         ,

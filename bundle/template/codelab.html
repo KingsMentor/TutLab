@@ -65,14 +65,14 @@ the License.
             axios.get('{{item.data_link}}')
                     .then(function (response) {
                         var converter = new showdown.Converter();
-                        converter.setFlavor('github');
+                        converter.setFlavor('{{flavor}}');
                         var html = converter.makeHtml(String(response.data));
                         var stepTag = document.getElementById('{{item.id}}');
                         stepTag.innerHTML = html;
                         if (String(response.data).length < 360) {
                             stepTag.duration = 1
                         } else {
-                            stepTag.duration = Math.round(String(response.data).length / 180)
+                            stepTag.duration = Math.round(String(response.data).length / 1000)
                         }
                         setTimeout(function () {
                             document.getElementById('lab')._initResume = true;
