@@ -16,7 +16,7 @@ the License.
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-    <title>codelab demo</title>
+    <title>OpenTutLab - Home to your Codelabs</title>
     <script src="/bower_components/webcomponentsjs/webcomponents-lite.min.js" async></script>
     <script src="/static/showdown.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -28,7 +28,7 @@ the License.
             useNativeCSSProperties: true
         };
     </script>
-    <link rel="stylesheet" href="/static/main.css">
+
 
     <link rel="stylesheet"
           href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,700">
@@ -72,8 +72,12 @@ the License.
                         if (String(response.data).length < 360) {
                             stepTag.duration = 1
                         } else {
-                            stepTag.duration = Math.round(String(response.data).length / 1000)
-                        }
+                            var duration = Math.round(String(response.data).length / 1000)
+                            if (duration == 0){
+                                duration = 1
+                            }
+                            stepTag.duration = duration
+                        }a
                         setTimeout(function () {
                             document.getElementById('lab')._initResume = true;
                         }, 1000)
