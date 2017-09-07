@@ -1,9 +1,10 @@
 # TutLab
-Tutlab provides a guided, tutorial, hands-on coding experience by rendering content from markdown on github repository.<br/>
+Tutlab provides a guided, tutorial, hands-on coding experience by rendering content from markdown (.md files) on github repository.<br/>
 It takes away the hazzle of having to build the codelab template and bother about different styling and designs, allowing tutors to focus on creating a rich content only.<br/>
 It builds off of ![Google's Codelab template](https://github.com/googlecodelabs/codelab-components).
 
-This  example on ![Github Repo](https://github.com/KingsMentor/codelab/tree/master/buildingsmallerapk) produces this ![sample][http://opentutlab.appspot.com/posts/kingsmentor/codelab/buildingsmallerapk].
+![This  example](https://github.com/KingsMentor/codelab/tree/master/buildingsmallerapk) on Github Repo produces
+this [codelab](http://opentutlab.appspot.com/posts/kingsmentor/codelab/buildingsmallerapk)
 
 ### Steps on Setting up a Tut Lab Project
 
@@ -67,8 +68,3 @@ knowing this, I can share my codelab as : http://opentutlab.appspot.com/posts/ki
 Looking forward to working with great contributors. If you find this project interesting, kindly contribute.<br/>
 I am not so fluent with the technologies I have used to set this up and  there might be many fawls, please help fix if you find any.<br/>
 I know there are many ways this can be better. Contribute, share and reach out. Thanks
-
-
-
-
- 
