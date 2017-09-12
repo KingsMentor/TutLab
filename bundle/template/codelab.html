@@ -46,12 +46,18 @@ the License.
 <body>
 
 {% if showLastUpdate %}
-<google-codelab id="lab" title="{{title}}" home="{{home_link}}"
+<google-codelab id="lab" title="{{title}}"
+                home="{{home_link}}"
                 feedback-link="{{feedback_link}}"
                 environment="web"
+                author_name="{{author_name}}"
+                author_link="{{author_link}}"
                 last-updated="{{last_updated}}">
     {% else %}
-    <google-codelab id="lab" title="{{title}}" home="{{home_link}}"
+    <google-codelab id="lab" title="{{title}}"
+                    home="{{home_link}}"
+                    author_name="{{author_name}}"
+                    author_link="{{author_link}}"
                     feedback-link="{{feedback_link}}"
                     environment="web">
         {% endif %}
@@ -73,11 +79,11 @@ the License.
                             stepTag.duration = 1
                         } else {
                             var duration = Math.round(String(response.data).length / 1000)
-                            if (duration == 0){
+                            if (duration == 0) {
                                 duration = 1
                             }
                             stepTag.duration = duration
-                        }a
+                        }
                         setTimeout(function () {
                             document.getElementById('lab')._initResume = true;
                         }, 1000)

@@ -100,9 +100,15 @@ prevent syntax highlighting code blocks, respectively:
                         <template is="dom-if" if="{{lastUpdated}}" strip-whitespace>
                             <div id="last-updated">Last updated on {{lastUpdated}}.</div>
                         </template>
+
                         <div id="feedback" hidden$="[[!feedbackLink]]">
                             Did you find a mistake?
                             <a target="_blank" href$="{{feedbackLink}}">Please file a bug</a>.
+                        </div>
+                        <div id="author_details" hidden$="[[!author_link]]">
+                            by <a target="_blank" href$="{{author_link}}"><i>{{author_name}}</i></a>.
+                            <br/>
+                            <br/>
                         </div>
                     </div>
 
@@ -237,6 +243,22 @@ prevent syntax highlighting code blocks, respectively:
                  * Feedback URL for the codelab bug repors.
                  */
                 feedbackLink: {
+                    type: String,
+                    value: ''
+                },
+
+                /**
+                 * Feedback URL for the codelab bug repors.
+                 */
+                author_name: {
+                    type: String,
+                    value: ''
+                },
+
+                /**
+                 * Feedback URL for the codelab bug repors.
+                 */
+                author_link: {
                     type: String,
                     value: ''
                 },

@@ -80,6 +80,8 @@ def fetch_variables_from_manifest(repo, labPath):
     variables['last_updated'] = repo.updated_at
     variables['feedback_link'] = manifest['feedback_link']
     variables['home_link'] = manifest['home']
+    variables['author_name'] = manifest['authorName']
+    variables['author_link'] = manifest['authorLink']
     variables['flavor'] = manifest['flavor']
     variables['showLastUpdate'] = bool(manifest['showLastUpdate'])
     return variables, manifest
